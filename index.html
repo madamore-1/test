@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Girly Blog and Shop</title>
+    <title>Welcome to My Girly Blog & Shop</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #ffeef2;
+            background-color: #ffe6f0;
             color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #ffb6c1;
-            color: white;
-            padding: 20px;
             text-align: center;
-            font-size: 24px;
+            background-color: #ff85a2;
+            color: white;
+            padding: 30px 20px;
+            font-size: 36px;
             font-weight: bold;
+        }
+        .about {
+            background-color: #ffcce1;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .about h2 {
+            color: #ff69b4;
+            font-size: 28px;
         }
         nav {
             display: flex;
@@ -27,4 +41,44 @@
             padding: 10px 0;
         }
         nav a {
-            color
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #ff85a2;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to My Girly Blog & Shop
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About This Website</h2>
+        <p>
+            Welcome to the girliest corner of the web! This is your one-stop destination for fashion tips, beauty secrets, and cute finds. 
+            Whether you're here to read our blog or shop for the prettiest products, we've got you covered. 
+            Feel free to explore and enjoy your stay!
+        </p>
+    </section>
+    <footer>
+        &copy; 2024 Girly Blog & Shop. All rights reserved.
+    </footer>
+</body>
+</html>
